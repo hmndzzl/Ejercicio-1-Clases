@@ -1,8 +1,10 @@
 public class Ventas{
+    //Atributos 
     private Comprador comprador;
     private Ubicacion ubicacion;
     private String ticket;
 
+    //Constructor 
     public Ventas(Comprador comprador, Ubicacion ubicacion, String ticket){
         this.comprador = comprador;
         this.ubicacion = ubicacion;
@@ -29,8 +31,9 @@ public class Ventas{
     public String getTicket() {
         return this.ticket;
     }
+    // Methods
 
-    public void setTicket(int fecha, int noCliente) {
-        this.ticket = String.valueOf(fecha) + String.valueOf(noCliente);
+    public void setTicket(String fecha, int noCliente) { //Función para generar el número de ticket
+        this.ticket = fecha + String.valueOf(noCliente);
     }
 }

@@ -4,7 +4,7 @@ public class Ubicacion{
     private int precio;
     private int boletosDisponibles;
 
-
+    // Constructor
     public Ubicacion(String nombre, int precio, int boletosDisponibles){
         this.nombre = nombre;
         this.precio = precio;

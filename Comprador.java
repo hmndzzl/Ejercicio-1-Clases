@@ -6,6 +6,7 @@ public class Comprador{
     private int noBoletos;
     private int noCliente;
 
+    //Constructor
     public Comprador(String nombre, String correo, int prespuesto, int noBoletos, int noCliente){
         this.nombre = nombre;
         this.correo = correo;
